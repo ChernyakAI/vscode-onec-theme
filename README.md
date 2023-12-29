@@ -4,15 +4,9 @@
 
 ## Примеры
 
-![screenshot_0](/screenshots/screenshot_0.png "")
+![Пример светлой темы](/images/screenshots/screenshot_light.png "")
 
-![screenshot_1](/screenshots/screenshot_1.png "")
-
-![screenshot_2](/screenshots/screenshot_2.png "")
-
-![screenshot_3](/screenshots/screenshot_3.png "")
-
-![screenshot_4](/screenshots/screenshot_4.png "")
+![Пример тёмной темы](/images/screenshots/screenshot_dark.png "")
 
 ## Установка
 
@@ -22,11 +16,11 @@
 2. В Visual Studio Code нажмите на значок "Расширения" (Extensions) в левой части окна
 3. В открывшейся панели расширений в верхней части нажмите на "..." и выберите из выпадающего списка "Установка из VSIX(Install from VSIX)
 4. После установки перейдите Файл -> Настройки -> Тема -> Цветовая тема (File -> Preferences -> Theme -> Color Theme)
-В появившемся меню выберите "OneC ..."
+В появившемся меню выберите "OneC Light" или "Onec Dark".
 
 ### 2. Из магазина приложений
 
 1. В Visual Studio Code перейдите на вкладку "Расширения"
-2. В окне поиска введите "onec"
+2. В окне поиска введите "OneC Theme"
 3. Установите расширение
 4. Выберите светлый или тёмный вариант
