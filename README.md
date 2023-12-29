@@ -4,9 +4,9 @@
 
 ## Примеры
 
-![Пример светлой темы](/images/screenshots/screenshot_light.png "")
+![Пример светлой темы](/images/screenshots/screenshot_light.png "Пример светлой темы")
 
-![Пример тёмной темы](/images/screenshots/screenshot_dark.png "")
+![Пример тёмной темы](/images/screenshots/screenshot_dark.png "Пример тёмной темы")
 
 ## Установка
 
