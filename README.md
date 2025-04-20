@@ -3,7 +3,8 @@
 Темы оформления для Visual Studio Code разработанные по мотивам различных расцветок вокруг да около платформы 1С:Предприятие.
 
 Подсветка синтаксиса встроенного языка 1С:Предприятие и [OneScript](http://oscript.io/), а также языка запросов 1С:Предприятие - при наличии установленного плагина [vsc-language-1c-bsl](https://marketplace.visualstudio.com/items?itemName=1c-syntax.language-1c-bsl).
-Подсветка синтаксиса в файлах `xbsl` и `sbsl` - при наличии плагина [vscode-xbslplugin](https://github.com/bia-technologies/vscode-xbslplugin) (официальный плагин [1C:Executor](https://marketplace.visualstudio.com/items?itemName=1c-soft.1c-executor-plugin) тоже подойдёт).
+Подсветка синтаксиса в файлах `xbsl` и `sbsl` - при наличии плагина [vscode-xbslplugin](https://github.com/bia-technologies/vscode-xbslplugin) (или официальный плагин [1C:Executor](https://marketplace.visualstudio.com/items?itemName=1c-soft.1c-executor-plugin)).
+Подсветка синтаксиса в файлах `feature` - при наличии установленного плагина [Cucumber (Gherkin) Full Support](https://marketplace.visualstudio.com/items?itemName=alexkrechik.cucumberautocomplete)
 
 ## Примеры
 

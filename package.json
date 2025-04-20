@@ -2,7 +2,7 @@
   "name": "onec",
   "displayName": "OneC Theme", 
   "description": "The color theme for Visual Studio Code",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "publisher": "chernyakai",
   "license": "MIT",
   "bugs": {
