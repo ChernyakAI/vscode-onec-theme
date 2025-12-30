@@ -2,7 +2,7 @@
   "name": "onec",
   "displayName": "OneC Theme", 
   "description": "The color theme for Visual Studio Code",
-  "version": "0.3.2",
+  "version": "1.0.0",
   "publisher": "chernyakai",
   "license": "MIT",
   "bugs": {
@@ -14,7 +14,7 @@
     "url": "https://github.com/ChernyakAI/vscode-onec-theme"
   },
   "engines": {
-    "vscode": "^1.98.2"
+    "vscode": "^1.107.1"
   },
   "categories": [
     "Themes"
@@ -35,6 +35,11 @@
         "label": "OneC Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/OneC-dark-color-theme.json"
+      },
+      {
+        "label": "OneC Midnight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/OneC-midnight-color-theme.json"
       }
     ]
   },
