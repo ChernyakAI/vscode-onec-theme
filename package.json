@@ -2,7 +2,7 @@
   "name": "onec",
   "displayName": "OneC Theme", 
   "description": "The color theme for Visual Studio Code",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "publisher": "chernyakai",
   "license": "MIT",
   "bugs": {
@@ -14,12 +14,37 @@
     "url": "https://github.com/ChernyakAI/vscode-onec-theme"
   },
   "engines": {
-    "vscode": "^1.107.1"
+    "vscode": "^1.139.0"
   },
   "categories": [
     "Themes"
   ],
+  "main": "./src/extension.js",
+  "activationEvents": [],
   "contributes": {
+    "markdown.markdownItPlugins": true,
+    "markdown.previewStyles": [
+      "./styles/markdown-preview.css"
+    ],
+    "grammars": [
+      {
+        "scopeName": "markdown.bsl.injection",
+        "path": "./syntaxes/markdown-bsl.injection.json",
+        "injectTo": ["text.html.markdown"],
+        "embeddedLanguages": {
+          "meta.embedded.block.bsl": "bsl",
+          "meta.embedded.block.sdbl": "sdbl"
+        }
+      },
+      {
+        "scopeName": "markdown.turbogherkin.injection",
+        "path": "./syntaxes/markdown-turbogherkin.injection.json",
+        "injectTo": ["text.html.markdown"],
+        "embeddedLanguages": {
+          "meta.embedded.block.turbogherkin": "turbogherkin"
+        }
+      }
+    ],
     "themes": [
       {
         "label": "OneC Light",

@@ -2,3 +2,7 @@
 .vscode-test/**
 .vsix
 .gitignore
+*.vsix
+.vscodeignore
+!README.md
+!README.en.md
