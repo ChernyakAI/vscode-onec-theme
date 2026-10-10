@@ -1,5 +1,6 @@
 # Change Log
 
+* 2.0.1 - Fixed the Status Bar and Title Bar backgrounds when the window loses focus in all four themes
 * 2.0.0 - Updated all four themes for VS Code 1.139.0, added opt-in BSL semantic highlighting, expanded syntax highlighting, and improved Markdown Preview, Terminal, Chat, Agents Window and Modern UI support
 * 1.0.0 - A new dark theme has been added, the old "Dark" theme has become the "Midnight" theme
 * 0.3.2 - Various improvements
