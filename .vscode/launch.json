@@ -6,11 +6,27 @@
 	"version": "0.2.0",
     "configurations": [
         {
+            "name": "OneC Theme — все расширения",
+            "type": "extensionHost",
+            "request": "launch",
+            "args": [
+                "--extensionDevelopmentPath=${workspaceFolder}"
+            ]
+        },
+        {
             "name": "Extension",
             "type": "extensionHost",
             "request": "launch",
             "args": [
                 "--disable-extensions",
+                "--extensionDevelopmentPath=${workspaceFolder}"
+            ]
+        },
+        {
+            "name": "Markdown Grammar Debug",
+            "type": "extensionHost",
+            "request": "launch",
+            "args": [
                 "--extensionDevelopmentPath=${workspaceFolder}"
             ]
         }
